@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" fill="#667eea">
+        <!-- Body (Slightly raised) -->
+        <ellipse cx="16" cy="15" rx="8" ry="6"/>
+        <!-- Head (Slightly raised) -->
+        <circle cx="22" cy="12" r="4"/>
+        <!-- Ear -->
+        <path d="M20,12 C20,12 19,5 20,4 C21,3 23,6 22,7 L20,12 Z"/>
+        <!-- Front Legs (Running Position 2) -->
+        <rect x="19" y="19" width="2" height="5" rx="1" transform="rotate(-45, 20, 19)"/>
+        <rect x="22" y="19" width="2" height="5" rx="1" transform="rotate(45, 23, 19)"/>
+        <!-- Back Legs -->
+        <rect x="13" y="19" width="2" height="5" rx="1" transform="rotate(-30, 14, 19)"/>
+        <rect x="10" y="19" width="2" height="5" rx="1" transform="rotate(30, 11, 19)"/>
+        <!-- Tail (Raised) -->
+        <circle cx="9" cy="13" r="2"/>
+        <!-- Eye -->
+        <circle cx="23" cy="11" r="0.5" fill="#ffffff"/>
+    </g>
+</svg>

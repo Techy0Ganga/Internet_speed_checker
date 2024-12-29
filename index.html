@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Speed Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Internet Speed Test</h1>
+        <div class="speed-test-container">
+            <div class="speed-indicator">
+                <div class="speed-gauge">
+                    <div class="gauge-center">
+                        <div class="bunny-container">
+                            <div class="bunny"></div>
+                        </div>
+                        <span id="speed-value">0</span>
+                        <span class="unit">Mbps</span>
+                    </div>
+                </div>
+            </div>
+            <div class="details">
+                <div class="info-box">
+                    <span class="label">Download Speed</span>
+                    <span id="download-speed">-- Mbps</span>
+                </div>
+                <div class="info-box">
+                    <span class="label">Upload Speed</span>
+                    <span id="upload-speed">-- Mbps</span>
+                </div>
+                <div class="info-box">
+                    <span class="label">Ping</span>
+                    <span id="ping">-- ms</span>
+                </div>
+            </div>
+            <button id="start-test" class="test-button">Start Test</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
